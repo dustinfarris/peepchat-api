@@ -1,1 +1,1 @@
-web: elixir -S mix phoenix.server
+web: elixir -S do ecto.migrate, phoenix.server

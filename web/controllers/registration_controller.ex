@@ -5,7 +5,7 @@ defmodule Peepchat.RegistrationController do
 
   def create(conn, %{
     "data" => %{
-      "type" => "user",
+      "type" => "users",
       "attributes" => %{
         "email" => email,
         "password" => password,
